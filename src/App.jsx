@@ -1,12 +1,10 @@
 import React from "react";
 
-function App() {
+export default function App() {
   return (
-    <div className="app">
-      <h1>Jarvis AI Assistant</h1>
-      <p>Frontend is running successfully 🚀</p>
+    <div className="h-screen flex items-center justify-center bg-gray-900 text-cyan-400">
+      <h1 className="text-4xl font-bold">JARVIS AI Assistant</h1>
+      {/* بعداً اینجا کامپوننت‌ها و صفحات اضافه می‌شن */}
     </div>
   );
 }
-
-export default App;
